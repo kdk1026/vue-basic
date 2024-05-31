@@ -14,6 +14,7 @@ import LinkReceiveData from "../pages/LinkReceiveData.vue";
 import Main from "../pages/Main.vue";
 import Articles from "../pages/article/Articles.vue";
 import Article from "../pages/article/Article.vue";
+import Focus from "../pages/Focus.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -39,7 +40,8 @@ const routes = [
                 path: 'article/:id', component: Article
             }
         ]
-    }
+    },
+    { path: '/focus', component: Focus },
 ];
 
 const router = createRouter({
