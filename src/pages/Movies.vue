@@ -29,7 +29,11 @@ import Movie from "../components/Movie.vue";
     };
 
     const addMovie = (movie) => {
-        movies.value.push(movie);
+        // movies.value.push(movie);
+        movies.value = [
+            ...movies.value,
+            movie
+        ];
     }
 </script>
 
