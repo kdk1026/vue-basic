@@ -12,7 +12,7 @@
       <router-link to="/main/article">Article 목록</router-link> | <router-link to="/focus">Focus</router-link> |
       <router-link to="/textarea">TextArea</router-link> | <router-link to="/checkbox">CheckBox</router-link>
       <router-link to="/radio">Radio</router-link> | <router-link to="/select">Select</router-link> | 
-      <router-link to="/inputFile">InputFile</router-link>
+      <router-link to="/inputFile">InputFile</router-link> | <router-link to="/vue-multiselect">vue-multiselect</router-link>
     </nav>
     <router-view :key="$route.fullPath"></router-view>
   </div>

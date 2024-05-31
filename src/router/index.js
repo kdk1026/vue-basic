@@ -20,6 +20,7 @@ import CheckBox from "../pages/CheckBox.vue";
 import Radio from "../pages/Radio.vue";
 import Select from "../pages/Select.vue";
 import InputFile from "../pages/InputFile.vue";
+import VueSelect from "../pages/VueSelect.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -52,6 +53,7 @@ const routes = [
     { path: '/radio', component: Radio },
     { path: '/select', component: Select },
     { path: '/inputFile', component: InputFile },
+    { path: '/vue-multiselect', component: VueSelect },
 ];
 
 const router = createRouter({
