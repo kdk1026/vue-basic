@@ -1,7 +1,7 @@
 <template>
     <h1>Movie list</h1>
     <MovieForm :addMovie="addMovie" />
-    <div v-if="computed(() => movies.value.length)">
+    <div v-if="movies.length">
         <Movie
             v-for="movie in movies" :key="movie.id"
             :movie="movie"
