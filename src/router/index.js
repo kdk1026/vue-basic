@@ -15,6 +15,11 @@ import Main from "../pages/Main.vue";
 import Articles from "../pages/article/Articles.vue";
 import Article from "../pages/article/Article.vue";
 import Focus from "../pages/Focus.vue";
+import TextArea from "../pages/TextArea.vue";
+import CheckBox from "../pages/CheckBox.vue";
+import Radio from "../pages/Radio.vue";
+import Select from "../pages/Select.vue";
+import InputFile from "../pages/InputFile.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -42,6 +47,11 @@ const routes = [
         ]
     },
     { path: '/focus', component: Focus },
+    { path: '/textarea', component: TextArea },
+    { path: '/checkbox', component: CheckBox },
+    { path: '/radio', component: Radio },
+    { path: '/select', component: Select },
+    { path: '/inputFile', component: InputFile },
 ];
 
 const router = createRouter({
