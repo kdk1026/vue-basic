@@ -21,6 +21,7 @@ import Radio from "../pages/Radio.vue";
 import Select from "../pages/Select.vue";
 import InputFile from "../pages/InputFile.vue";
 import VueSelect from "../pages/VueSelect.vue";
+import VueCookies from "../pages/VueCookies.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -54,6 +55,7 @@ const routes = [
     { path: '/select', component: Select },
     { path: '/inputFile', component: InputFile },
     { path: '/vue-multiselect', component: VueSelect },
+    { path: '/vue-cookies', component: VueCookies },
 ];
 
 const router = createRouter({
