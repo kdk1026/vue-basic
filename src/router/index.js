@@ -22,6 +22,8 @@ import Select from "../pages/Select.vue";
 import InputFile from "../pages/InputFile.vue";
 import VueSelect from "../pages/VueSelect.vue";
 import VueCookies from "../pages/VueCookies.vue";
+import RouterHistory from "../pages/RouterHistory.vue";
+import RouterHistoryMove from "../pages/RouterHistoryMove.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -56,6 +58,8 @@ const routes = [
     { path: '/inputFile', component: InputFile },
     { path: '/vue-multiselect', component: VueSelect },
     { path: '/vue-cookies', component: VueCookies },
+    { path: '/routerHistory', component: RouterHistory },
+    { path: '/routerHistoryMove', component: RouterHistoryMove },
 ];
 
 const router = createRouter({
