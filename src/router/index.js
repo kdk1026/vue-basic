@@ -24,6 +24,7 @@ import VueSelect from "../pages/VueSelect.vue";
 import VueCookies from "../pages/VueCookies.vue";
 import RouterHistory from "../pages/RouterHistory.vue";
 import RouterHistoryMove from "../pages/RouterHistoryMove.vue";
+import FileDownload from "../pages/FileDownload.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -60,6 +61,7 @@ const routes = [
     { path: '/vue-cookies', component: VueCookies },
     { path: '/routerHistory', component: RouterHistory },
     { path: '/routerHistoryMove', component: RouterHistoryMove },
+    { path: '/fileDownload', component: FileDownload },
 ];
 
 const router = createRouter({
