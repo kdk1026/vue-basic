@@ -14,7 +14,7 @@
       <router-link to="/radio">Radio</router-link> | <router-link to="/select">Select</router-link> | 
       <router-link to="/inputFile">InputFile</router-link> | <router-link to="/vue-multiselect">vue-multiselect</router-link> |
       <router-link to="/vue-cookies">vue-cookies</router-link> | <router-link to="/routerHistory">RouterHistory</router-link> |
-      <router-link to="/fileDownload">파일 다운로드</router-link>
+      <router-link to="/fileDownload">파일 다운로드</router-link> | <router-link to="/fileUpload">파일 업로드</router-link>
     </nav>
     <router-view :key="$route.fullPath"></router-view>
   </div>
