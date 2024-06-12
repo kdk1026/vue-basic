@@ -26,6 +26,8 @@ import RouterHistory from "../pages/RouterHistory.vue";
 import RouterHistoryMove from "../pages/RouterHistoryMove.vue";
 import FileDownload from "../pages/FileDownload.vue";
 import FileUpload from "../pages/FileUpload.vue";
+import Parent from "../pages/Parent.vue";
+import Parent2 from "../pages/Parent.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -64,6 +66,8 @@ const routes = [
     { path: '/routerHistoryMove', component: RouterHistoryMove },
     { path: '/fileDownload', component: FileDownload },
     { path: '/fileUpload', component: FileUpload },
+    { path: '/parent', component: Parent },
+    { path: '/parent2', component: Parent2 },
 ];
 
 const router = createRouter({
