@@ -16,7 +16,7 @@
       <router-link to="/vue-cookies">vue-cookies</router-link> | <router-link to="/routerHistory">RouterHistory</router-link> |
       <router-link to="/fileDownload">파일 다운로드</router-link> | <router-link to="/fileUpload">파일 업로드</router-link> | 
       <router-link to="/parent">자식->부모 props</router-link> | <router-link to="/parent2">자식->부모 emit</router-link> | 
-      <router-link to="/html">HTML 출력</router-link>
+      <router-link to="/html">HTML 출력</router-link> | <router-link to="/routerQuery">RouterQuery</router-link>
     </nav>
     <router-view :key="$route.fullPath"></router-view>
   </div>

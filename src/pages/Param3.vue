@@ -35,14 +35,14 @@ import { useRoute, useRouter } from "vue-router";
 
     const appendSort = () => {
         if ( !params.sort ) {
-        router.push({
-            path: 'param2',
-            query: {
-                q: params.q,
-                page: params.page,
-                sort: 'asc'
-            }
-        });
+            router.push({
+                path: 'param2',
+                query: {
+                    q: params.q,
+                    page: params.page,
+                    sort: 'asc'
+                }
+            });
         }
     };
 </script>

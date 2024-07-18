@@ -29,6 +29,7 @@ import FileUpload from "../pages/FileUpload.vue";
 import Parent from "../pages/Parent.vue";
 import Parent2 from "../pages/Parent.vue";
 import Html from "../pages/Html.vue";
+import RouterQuery from "../pages/RouterQuery.vue";
 
 const routes = [
     { path: '/', component: Home },
@@ -70,6 +71,7 @@ const routes = [
     { path: '/parent', component: Parent },
     { path: '/parent2', component: Parent2 },
     { path: '/html', component: Html },
+    { path: '/routerQuery', component: RouterQuery },
 ];
 
 const router = createRouter({
